@@ -6,19 +6,21 @@ body {
 
 .login-box {
     position: absolute;
-    top: 50px;
-    left: 40px;
+    top: 40px;
+    left: 48px;
     width: 400px;
     background-color: #313131;
     padding: 20px;
-    border: 2px solid #ccc;
+    border: 3px solid #ccc;
     box-shadow: 0 0 8px rgba(0,0,0,0.3);
     color: white;
+
 }
 
 .logo-img {
-    width: 380px; /* 放大 Logo 圖片 */
-    margin-bottom: 20px;
+    width: 372px; /* 放大 Logo 圖片 */
+    margin-bottom: 1px;
+    margin-left: 15px;
 }
 
 .form-group {
@@ -32,13 +34,13 @@ body {
     width: 140px;
     margin-right: 25px;
     text-align: right;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 16px;
 }
 
 .form-group input[type="text"],
 .form-group input[type="password"] {
-    width: 120px;          /* 保留原有寬度或視情況微調 */
+    width: 113px;          /* 保留原有寬度或視情況微調 */
     padding: 2px 4px;      /* ✅ 原本是 4px，上下改小，降低高度 */
     font-size: 13px;
     line-height: 1.1;      /* ✅ 可略降行高，使外觀更扁 */
@@ -67,7 +69,7 @@ form button {
     background-color: #ddd;
     border: none;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 400;
     margin-left: 165px;
 }
 
@@ -87,7 +89,7 @@ form button:hover {
     display: block;
     color: white;
     text-decoration: underline; /* ✅ 預設就有底線 */
-    margin-top: 4px;
+    margin-top: 8px;
 }
 
 .links a:hover {
