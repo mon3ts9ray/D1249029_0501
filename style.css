@@ -64,7 +64,7 @@ body {
 
 form button {
     margin-top: 15px;
-    padding: 4px 24px;      /* ✅ 原本 16px → 改為 32px，變長 */
+    padding: 2px 26px;      /* ✅ 原本 16px → 改為 32px，變長 */
     font-size: 13px;
     background-color: #ddd;
     border: none;
@@ -79,7 +79,7 @@ form button:hover {
 }
 
 .links {
-    margin-top: 45px;
+    margin-top: 55px;
     font-size: 13px;
     margin-left: 165px;   /* ✅ 與輸入框左緣對齊 */
     text-align: left;

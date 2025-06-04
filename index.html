@@ -20,20 +20,17 @@
             <input type="password" id="password" required>
         </div>
 
-        <!-- ⬇️ Login 按鈕提前 -->
         <button type="submit">Login</button>
 
-        <!-- ⬇️ Remember Me 放到下方 -->
-        <!-- ✅ 不使用 .form-group，而是簡單的 div 包住 -->
         <div class="remember-row">
             <input type="checkbox" id="remember">
             <label for="remember" class="remember-label">Remember Me</label>
         </div>
 
-
+        <!-- ✅ 加入 id，方便 JS 綁定 -->
         <div class="links">
-            <a href="#">Register a New Account</a>
-            <a href="#">Forgot my Username or Password</a>
+            <a href="#" id="register-link">Register a New Account</a>
+            <a href="#" id="forgot-link">Forgot my Username or Password</a>
         </div>
     </form>
 </div>
