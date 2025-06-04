@@ -9,7 +9,6 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
     usernameField.value = "";
     passwordField.value = "";
 });
-
 // 🔔 點擊 Register 或 Forgot 時也提醒
 document.getElementById('register-link').addEventListener('click', function(e) {
     e.preventDefault();
