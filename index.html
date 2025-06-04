@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>iTelescope Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="login-box">
+    <img src="itelescope.jpg" alt="iTelescope Logo" class="logo-img">
+
+    <form id="loginForm">
+        <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" required>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+        </div>
+
+        <!-- ⬇️ Login 按鈕提前 -->
+        <button type="submit">Login</button>
+
+        <!-- ⬇️ Remember Me 放到下方 -->
+        <!-- ✅ 不使用 .form-group，而是簡單的 div 包住 -->
+        <div class="remember-row">
+            <input type="checkbox" id="remember">
+            <label for="remember" class="remember-label">Remember Me</label>
+        </div>
+
+
+        <div class="links">
+            <a href="#">Register a New Account</a>
+            <a href="#">Forgot my Username or Password</a>
+        </div>
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
