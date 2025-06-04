@@ -18,7 +18,7 @@ body {
 }
 
 .logo-img {
-    width: 372px; /* 放大 Logo 圖片 */
+    width: 372px;
     margin-bottom: 1px;
     margin-left: 15px;
 }
@@ -40,10 +40,10 @@ body {
 
 .form-group input[type="text"],
 .form-group input[type="password"] {
-    width: 113px;          /* 保留原有寬度或視情況微調 */
-    padding: 2px 4px;      /* ✅ 原本是 4px，上下改小，降低高度 */
+    width: 113px;
+    padding: 2px 4px;
     font-size: 13px;
-    line-height: 1.1;      /* ✅ 可略降行高，使外觀更扁 */
+    line-height: 1.1;
 }
 
 
@@ -64,7 +64,7 @@ body {
 
 form button {
     margin-top: 15px;
-    padding: 2px 26px;      /* ✅ 原本 16px → 改為 32px，變長 */
+    padding: 2px 26px;
     font-size: 13px;
     background-color: #ddd;
     border: none;
@@ -81,14 +81,14 @@ form button:hover {
 .links {
     margin-top: 55px;
     font-size: 13px;
-    margin-left: 165px;   /* ✅ 與輸入框左緣對齊 */
+    margin-left: 165px;
     text-align: left;
 }
 
 .links a {
     display: block;
     color: white;
-    text-decoration: underline; /* ✅ 預設就有底線 */
+    text-decoration: underline;
     margin-top: 8px;
 }
 
@@ -98,14 +98,14 @@ form button:hover {
 .remember-row {
     display: flex;
     align-items: center;
-    margin-left: 165px;  /* 與輸入框對齊 */
+    margin-left: 165px;
     margin-top: 10px;
 }
 
 .remember-row input[type="checkbox"] {
     width: 14px;
     height: 14px;
-    margin-right: 5px;  /* ✅ 讓文字貼近但不黏在 checkbox 上 */
+    margin-right: 5px;
 }
 
 .remember-label {
